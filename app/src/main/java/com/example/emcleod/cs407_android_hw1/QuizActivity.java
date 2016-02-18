@@ -12,5 +12,11 @@ public class QuizActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz);
+
+        getFragmentManager()
+                .beginTransaction()
+                .replace(R.id.main_fragment_container, new QuizFragment1())//QuizFragment1.newInstance())
+                .addToBackStack(null)
+                .commit();
     }
 }

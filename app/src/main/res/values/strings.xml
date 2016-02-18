@@ -2,4 +2,11 @@
     <string name="app_name">CS407_Android_HW1</string>
     <string name="welcome_msg">The Easiest Quiz Ever:</string>
     <string name="start_btn_text">Start the Quiz</string>
+    <string name="quest_text">What is your quest?</string>
+    <string name="quest_hint">Enter your quest here.</string>
+    <string name="submit_btn_text">Submit</string>
+    <string name="shibe_says">What does Shibe think of your quest?</string>
+    <string name="wow">Wow</string>
+    <string name="cool">Cool</string>
+    <string name="nice">Nice</string>
 </resources>

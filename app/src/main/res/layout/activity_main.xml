@@ -9,24 +9,35 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.emcleod.cs407_android_hw1.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/welcome_msg"
-        android:id="@+id/welcome_textView"
-        android:layout_gravity="center_horizontal"
-        android:layout_above="@+id/start_button"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="105dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/start_btn_text"
-        android:id="@+id/start_button"
-        android:layout_gravity="center_horizontal"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="211dp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/upsidedownShibe_imageView"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/upsidedown_shibe"
+            android:contentDescription="" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/welcome_msg"
+            android:id="@+id/welcome_textView"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start_btn_text"
+            android:id="@+id/start_button"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp" />
+    </LinearLayout>
+
 </RelativeLayout>

@@ -20,5 +20,7 @@ public class QuizFragment1 extends Fragment{
                              Bundle savedInstanceState) {
         View view = null;
         view = inflater.inflate(R.layout.fragment_quizfragment1, container, false);
+
+        return view;
     }
 }

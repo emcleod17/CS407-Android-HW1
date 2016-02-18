@@ -9,4 +9,28 @@
         android:id="@+id/shibe_imageView"
         android:layout_gravity="center_horizontal"
         android:src="@drawable/shibe" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/quest_text"
+        android:id="@+id/quest_textView"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/questEntry_editText"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/quest_hint"
+        android:layout_marginTop="50dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/submitQuest_button"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/submit_btn_text"
+        android:layout_marginTop="50dp" />
 </LinearLayout>
