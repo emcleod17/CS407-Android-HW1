@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">CS407_Android_HW1</string>
-    <string name="welcome_msg">Welcome to the very easy quiz app!</string>
+    <string name="welcome_msg">The Easiest Quiz Ever:</string>
     <string name="start_btn_text">Start the Quiz</string>
 </resources>
