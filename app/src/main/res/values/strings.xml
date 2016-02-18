@@ -9,4 +9,7 @@
     <string name="wow">Wow</string>
     <string name="cool">Cool</string>
     <string name="nice">Nice</string>
+    <string name="win_txt">Congratulations, you have answered all the questions and made Shibe quite happy!</string>
+    <string name="replay_btn_txt">Replay</string>
+    <string name="quit_btn_txt">Quit</string>
 </resources>
