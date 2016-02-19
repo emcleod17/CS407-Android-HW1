@@ -21,6 +21,11 @@
             android:label="QuizActivity"
             >
         </activity>
+
+        <activity
+            android:name=".WinActivity"
+            android:label="WinActivity">
+        </activity>
     </application>
 
 </manifest>
